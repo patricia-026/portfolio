@@ -8,14 +8,14 @@ export default function MenuList() {
       {list.map((element) => (
         <MenuLink key={element.id} id={element.id}>
           <motion.li
-            initial={{ scale: 0.5 }}
+            initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.2 },
               color: ["black", "red"],
             }}
-            transition={{ type: "spring", duration: 1.5 }}
+            transition={{ type: "spring", duration: 3 }}
             className="cursor-pointer ml-10 uppercase text-xl"
           >
             {element.name}
