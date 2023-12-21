@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 export default function About() {
   return (
     <section id="about" className="text-center scroll-pt-24 pb-8 bg-grey-blue">
-      <div className="mb-16 mx-[10%] pt-28 sm:flex gap-4">
+      <div className="mb-16 mx-[10%] pt-28 sm:flex">
         <div>
           <p className="text-3xl mb-2 sm:text-left sm:text-4xl text-cream">
             Patrícia Kovács
@@ -26,11 +26,11 @@ export default function About() {
         </Tilt>
       </div>
 
-      <div className="mt-[5%] mx-[10%] h-fit bg-dark-blue bg-opacity-80 rounded-3xl p-5">
+      <div className="mt-[2%] mx-[10%] h-fit bg-dark-blue bg-opacity-80 rounded-3xl p-5">
         <p className="mb-2 pb-4 sm:text-left text-xl sm:text-2xl text-cream">
           ABOUT
         </p>
-        <div className=" grid gap-4 sm:flex">
+        <div className="grid gap-4 sm:flex">
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>
             <div className="sm:max-lg:w-1/2">
               <Image src={logo} alt="Logo" />

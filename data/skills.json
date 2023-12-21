@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Laravel",
+    "image": "icons/laravel.svg"
+  },
+  {
+    "title": "PHP",
+    "image": "icons/php.svg"
+  },
+  {
+    "title": "Java",
+    "image": "icons/java.svg"
+  },
+  {
+    "title": "Javascript",
+    "image": "icons/javascript.svg"
+  },
+  {
+    "title": "JQuery",
+    "image": "icons/jquery.svg"
+  },
+  {
+    "title": "CSS3",
+    "image": "icons/css3.svg"
+  },
+  {
+    "title": "HTML5",
+    "image": "icons/html5.svg"
+  },
+  {
+    "title": "MySQL",
+    "image": "icons/mysql.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "image": "icons/postgresql.svg"
+  },
+  {
+    "title": "Firebase",
+    "image": "icons/firebase.svg"
+  },
+  {
+    "title": "MongoDB",
+    "image": "icons/mongodb.svg"
+  },
+  {
+    "title": "React",
+    "image": "icons/react.svg"
+  },
+  {
+    "title": "Redux",
+    "image": "icons/redux.svg"
+  },
+  {
+    "title": "Next.js",
+    "image": "icons/nextjs.svg"
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "icons/tailwindcss.svg"
+  },
+  {
+    "title": "Vite",
+    "image": "icons/vite.svg"
+  },
+  {
+    "title": "Git",
+    "image": "icons/git.svg"
+  }
+]
