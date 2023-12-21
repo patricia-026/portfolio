@@ -17,7 +17,7 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
             animate="visible"
             exit="hidden"
             transition={{ type: "spring", duration: 0.3 }}
-            className="rounded-3xl mx-auto my-4 w-3/4 sm:hidden bg-white p-10"
+            className="rounded-3xl mx-auto my-4 w-3/4 sm:hidden bg-dark-blue p-10"
           >
             <div className="py-4">
               <motion.ul
@@ -38,7 +38,7 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
                       }}
                       transition={{ type: "spring" }}
                       onClick={closeMenu}
-                      className="py-4 cursor-pointer"
+                      className="py-4 cursor-pointer text-cream"
                     >
                       {element.name}
                     </motion.li>
@@ -56,8 +56,14 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
               transition={{ type: "spring", duration: 2 }}
               className="flex items-center justify-center pt-2 pb-4"
             >
-              <AiOutlineGithub size={30} className="cursor-pointer mx-2" />
-              <AiOutlineLinkedin size={30} className="cursor-pointer mx-2" />
+              <AiOutlineGithub
+                size={30}
+                className="cursor-pointer mx-2 text-cream"
+              />
+              <AiOutlineLinkedin
+                size={30}
+                className="cursor-pointer mx-2 text-cream"
+              />
             </motion.div>
           </motion.div>
         )}

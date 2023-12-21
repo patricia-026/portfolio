@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-24 shadow-xl bg-white z-50">
+      <nav className="fixed w-full h-24 shadow-xl bg-dark-blue z-50">
         <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
           <Logo />
 
@@ -28,11 +28,11 @@ const Navbar = () => {
             <div onClick={handleNav} className="sm:hidden cursor-pointer">
               {menuOpen ? (
                 <div>
-                  <AiOutlineClose size={25} />
+                  <AiOutlineClose size={25} className="text-cream" />
                 </div>
               ) : (
                 <div>
-                  <AiOutlineMenu size={25} />
+                  <AiOutlineMenu size={25} className="text-cream" />
                 </div>
               )}
             </div>

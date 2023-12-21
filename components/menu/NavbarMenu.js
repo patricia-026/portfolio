@@ -8,15 +8,14 @@ export default function MenuList() {
       {list.map((element) => (
         <MenuLink key={element.id} id={element.id}>
           <motion.li
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
+            //initial={{ scale: 0 }}
+            //animate={{ scale: 1, transition: { type: "spring", duration: 3 } }}
             whileHover={{
               scale: 1.2,
-              transition: { duration: 0.2 },
-              color: ["black", "red"],
+              color: ["#CCC0A7", "#E5DFD3"],
             }}
-            transition={{ type: "spring", duration: 3 }}
-            className="cursor-pointer ml-10 uppercase text-xl"
+            whileTap={{ scale: 1, transition: { stiffness: 400, damping: 17 } }}
+            className="cursor-pointer ml-10 uppercase text-xl text-cream"
           >
             {element.name}
           </motion.li>
