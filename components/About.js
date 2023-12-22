@@ -14,9 +14,8 @@ export default function About() {
             Website Developer
           </p>
           <p className="text-lg sm:text-left sm:text-xl text-cream">
-            Hi👋, I'm Patricia. I am an enthusiastic website developer and like
-            to constantly expand my knowledge. I'm mainly proficient in Laravel,
-            but I'm happy to learn anything.
+            Nunc efficitur turpis vel odio rutrum, in efficitur nisl tristique.
+            Curabitur gravida et felis in lobortis. In quis purus odio.
           </p>
         </div>
         <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>

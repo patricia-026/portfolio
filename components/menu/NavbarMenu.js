@@ -12,7 +12,7 @@ export default function MenuList() {
             //animate={{ scale: 1, transition: { type: "spring", duration: 3 } }}
             whileHover={{
               scale: 1.2,
-              color: ["#CCC0A7", "#E5DFD3"],
+              color: ["#F9F7F0", "white"],
             }}
             whileTap={{ scale: 1, transition: { stiffness: 400, damping: 17 } }}
             className="cursor-pointer ml-10 uppercase text-xl text-cream"

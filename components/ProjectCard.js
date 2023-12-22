@@ -24,11 +24,11 @@ export default function ProjectCard({ projects }) {
           <div className="text-cream pb-4 mb-6 px-2">{project.description}</div>
         </div>
         <div className="w-full grid content-end">
-          <div className="text-cream flex flex-wrap w-full mb-2 px-2">
+          <div className="text-cream flex flex-wrap w-full justify-center mb-2 px-2">
             {project.technologies.map((technology, techId) => {
               return (
-                <div key={techId} className="p-1 w-10">
-                  <Image
+                <div key={techId} className="p-1 w-fit">
+                  {/* <Image
                     key={techId}
                     src={getImageUrl(technology.image)}
                     width={0}
@@ -37,7 +37,10 @@ export default function ProjectCard({ projects }) {
                     sizes="100vw"
                     style={{ width: "100%", height: "auto" }}
                     className="py-1"
-                  />
+                  /> */}
+                  <div className="bg-[#007BFF] text-cream p-2 w-fit text-sm rounded-3xl">
+                    {technology.title}
+                  </div>
                 </div>
               );
             })}
