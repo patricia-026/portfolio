@@ -21,9 +21,7 @@ const Navbar = () => {
       <nav className="fixed w-full h-24 shadow-xl bg-dark-blue z-50">
         <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
           <Logo />
-
           <NavbarMenu />
-
           <AnimatePresence>
             <div onClick={handleNav} className="sm:hidden cursor-pointer">
               {menuOpen ? (

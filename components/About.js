@@ -28,7 +28,7 @@ export default function About() {
 
       <div className="mt-[2%] mx-[10%] h-fit bg-dark-blue bg-opacity-80 rounded-3xl p-5">
         <p className="mb-2 pb-4 sm:text-left text-xl sm:text-2xl text-cream">
-          ABOUT
+          About
         </p>
         <div className="grid gap-4 sm:flex">
           <Tilt scale={1.1} transitionSpeed={2500} tiltReverse={true}>

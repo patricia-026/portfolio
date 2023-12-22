@@ -1,0 +1,106 @@
+[
+  {
+    "title": "PROJECT 1",
+    "image": "pic.jpg",
+    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
+    "technologies": [
+      {
+        "title": "React",
+        "image": "icons/react.svg"
+      },
+      {
+        "title": "Redux",
+        "image": "icons/redux.svg"
+      },
+      {
+        "title": "Next.js",
+        "image": "icons/nextjs.svg"
+      },
+      {
+        "title": "Tailwind CSS",
+        "image": "icons/tailwindcss.svg"
+      },
+      {
+        "title": "Vite",
+        "image": "icons/vite.svg"
+      },
+      {
+        "title": "Git",
+        "image": "icons/git.svg"
+      },
+      {
+        "title": "Laravel",
+        "image": "icons/laravel.svg"
+      }
+    ]
+  },
+  {
+    "title": "PROJECT 2",
+    "image": "pic.jpg",
+    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
+    "technologies": [
+      {
+        "title": "Laravel",
+        "image": "icons/laravel.svg"
+      },
+      {
+        "title": "CSS3",
+        "image": "icons/css3.svg"
+      },
+      {
+        "title": "MySQL",
+        "image": "icons/mysql.svg"
+      },
+      {
+        "title": "MongoDB",
+        "image": "icons/mongodb.svg"
+      }
+    ]
+  },
+  {
+    "title": "PROJECT 2",
+    "image": "pic.jpg",
+    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
+    "technologies": [
+      {
+        "title": "Laravel",
+        "image": "icons/laravel.svg"
+      },
+      {
+        "title": "CSS3",
+        "image": "icons/css3.svg"
+      },
+      {
+        "title": "MySQL",
+        "image": "icons/mysql.svg"
+      },
+      {
+        "title": "MongoDB",
+        "image": "icons/mongodb.svg"
+      }
+    ]
+  },
+  {
+    "title": "PROJECT 2",
+    "image": "pic.jpg",
+    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
+    "technologies": [
+      {
+        "title": "Laravel",
+        "image": "icons/laravel.svg"
+      },
+      {
+        "title": "CSS3",
+        "image": "icons/css3.svg"
+      },
+      {
+        "title": "MySQL",
+        "image": "icons/mysql.svg"
+      },
+      {
+        "title": "MongoDB",
+        "image": "icons/mongodb.svg"
+      }
+    ]
+  }
+]

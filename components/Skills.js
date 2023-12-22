@@ -1,4 +1,3 @@
-import { AiOutlineGithub } from "react-icons/ai";
 import skills from "../data/skills.json";
 import { getImageUrl } from "@/utils";
 import Image from "next/image";
