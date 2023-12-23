@@ -12,10 +12,10 @@ export default function MenuList() {
             //animate={{ scale: 1, transition: { type: "spring", duration: 3 } }}
             whileHover={{
               scale: 1.2,
-              color: ["#F9F7F0", "white"],
+              color: ["white", "#007BFF"],
             }}
             whileTap={{ scale: 1, transition: { stiffness: 400, damping: 17 } }}
-            className="cursor-pointer ml-10 uppercase text-xl text-cream"
+            className="cursor-pointer ml-10 uppercase text-xl text-white"
           >
             {element.name}
           </motion.li>

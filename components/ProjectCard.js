@@ -8,10 +8,10 @@ export default function ProjectCard({ projects }) {
       <div
         id="projects"
         key={id}
-        className="bg-dark-blue grid justify-between rounded-xl p-4 w-full sm:w-56 md:w-64 lg:w-80 m-2 shadow-sm shadow-cream/50 hover:shadow-md hover:shadow-cream/50 duration-200 hover:scale-105"
+        className="bg-dark-blue grid justify-between rounded-xl p-4 w-full sm:w-56 md:w-64 lg:w-80 m-2 shadow-sm shadow-white/50"
       >
         <div>
-          <div className="text-cream pb-4 pt-2">{project.title}</div>
+          <div className="text-white pb-4 pt-2">{project.title}</div>
           <Image
             src={getImageUrl(project.image)}
             width={0}
@@ -21,10 +21,10 @@ export default function ProjectCard({ projects }) {
             style={{ width: "auto", height: "auto" }}
             className="px-2 pb-4 min-w-full"
           />
-          <div className="text-cream pb-4 mb-6 px-2">{project.description}</div>
+          <div className="text-white pb-4 mb-6 px-2">{project.description}</div>
         </div>
         <div className="w-full grid content-end">
-          <div className="text-cream flex flex-wrap w-full justify-center mb-2 px-2">
+          <div className="text-white flex flex-wrap w-full justify-center mb-2 px-2">
             {project.technologies.map((technology, techId) => {
               return (
                 <div key={techId} className="p-1 w-fit">
@@ -38,7 +38,7 @@ export default function ProjectCard({ projects }) {
                     style={{ width: "100%", height: "auto" }}
                     className="py-1"
                   /> */}
-                  <div className="bg-[#007BFF] text-cream p-2 w-fit text-sm rounded-3xl">
+                  <div className="bg-[#007BFF] text-white p-2 w-fit text-sm rounded-3xl">
                     {technology.title}
                   </div>
                 </div>
@@ -48,9 +48,9 @@ export default function ProjectCard({ projects }) {
           <div className="flex justify-end m-2">
             <AiOutlineLink
               size={30}
-              className="cursor-pointer text-cream mr-2"
+              className="cursor-pointer text-white mr-2"
             />
-            <AiOutlineGithub size={30} className="cursor-pointer text-cream" />
+            <AiOutlineGithub size={30} className="cursor-pointer text-white" />
           </div>
         </div>
       </div>

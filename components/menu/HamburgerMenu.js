@@ -38,7 +38,7 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
                       }}
                       transition={{ type: "spring" }}
                       onClick={closeMenu}
-                      className="py-4 cursor-pointer text-cream"
+                      className="py-4 cursor-pointer text-white"
                     >
                       {element.name}
                     </motion.li>
@@ -58,11 +58,11 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
             >
               <AiOutlineGithub
                 size={30}
-                className="cursor-pointer mx-2 text-cream"
+                className="cursor-pointer mx-2 text-white"
               />
               <AiOutlineLinkedin
                 size={30}
-                className="cursor-pointer mx-2 text-cream"
+                className="cursor-pointer mx-2 text-white"
               />
             </motion.div>
           </motion.div>
