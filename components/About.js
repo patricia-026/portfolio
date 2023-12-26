@@ -34,7 +34,7 @@ export default function About() {
           <p className="text-xl mb-6 sm:text-left sm:text-2xl text-white/50">
             Website Developer
           </p>
-          <p className="text-lg sm:text-left sm:text-xl text-white md:w-1/2">
+          <p className="leading-loose text-lg sm:text-left sm:text-xl text-white md:w-1/2">
             I am an enthusiastic website developer and like to constantly expand
             my knowledge. I&apos;m mainly proficient in Laravel, but I&apos;m
             happy to learn anything. Currently I&apos;m learning React.
@@ -43,13 +43,15 @@ export default function About() {
       </div>
 
       <div className="mt-[2%] mx-[10%] h-fit bg-dark-blue bg-opacity-80 rounded-3xl p-5">
-        <p className="mb-2 pb-4 text-xl sm:text-2xl text-white ">About</p>
+        <p className="mx-auto mb-2 pb-4 text-xl sm:text-2xl text-white ">
+          About
+        </p>
         <div className="grid gap-4 sm:flex mx-auto">
-          <div className="w-[210px] my-auto mx-auto lg:w-[100%] xl:w-[80%] 2xl:w-[50%]">
+          <div className="sm:w-[210px] my-auto mx-auto lg:w-[100%] xl:w-[80%] 2xl:w-[50%]">
             <Image src={about} alt="Picture" className="mx-auto" />
           </div>
           <div className="flex justify-center items-center sm:max-lg:w-1/2 text-white">
-            <div className="lg:px-11 mx-auto">
+            <div className="lg:px-11 mx-auto leading-relaxed">
               <p>
                 Hi!👋 My name is Patricia. I have a degree in Business
                 Informatics and I worked as a website developer. During my work,
