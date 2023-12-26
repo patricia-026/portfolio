@@ -44,12 +44,12 @@ export default function About() {
 
       <div className="mt-[2%] mx-[10%] h-fit bg-dark-blue bg-opacity-80 rounded-3xl p-5">
         <p className="mb-2 pb-4 text-xl sm:text-2xl text-white ">About</p>
-        <div className="grid gap-4 sm:flex">
+        <div className="grid gap-4 sm:flex mx-auto">
           <div className="w-[210px] my-auto mx-auto lg:w-[100%] xl:w-[80%] 2xl:w-[50%]">
             <Image src={about} alt="Picture" className="mx-auto" />
           </div>
           <div className="flex justify-center items-center sm:max-lg:w-1/2 text-white">
-            <div className="lg:px-11">
+            <div className="lg:px-11 mx-auto">
               <p>
                 Hi!👋 My name is Patricia. I have a degree in Business
                 Informatics and I worked as a website developer. During my work,
