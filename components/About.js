@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 export default function About() {
   return (
     <section id="about" className="text-center scroll-pt-24 pb-8 mb-6">
-      <div className="text-center italic text-pink-500 pt-6">
+      <div className="text-center italic text-pink-500 pt-6 text-lg">
         Development is still in progress...
       </div>
       <div className="mb-16 mx-[10%] pt-20 sm:flex justify-between">
@@ -29,14 +29,15 @@ export default function About() {
         </Tilt>
         <div className="sm:order-1 my-auto p-2">
           <p className="text-3xl mb-2 sm:text-left sm:text-4xl text-white">
-            Patrícia Kovács
+            Patricia Kovacs
           </p>
-          <p className="text-xl mb-6 sm:text-left sm:text-2xl text-white">
+          <p className="text-xl mb-6 sm:text-left sm:text-2xl text-white/50">
             Website Developer
           </p>
           <p className="text-lg sm:text-left sm:text-xl text-white md:w-1/2">
-            Nunc efficitur turpis vel odio rutrum, in efficitur nisl tristique.
-            Curabitur gravida et felis in lobortis. In quis purus odio.
+            I am an enthusiastic website developer and like to constantly expand
+            my knowledge. I&apos;m mainly proficient in Laravel, but I&apos;m
+            happy to learn anything. Currently I&apos;m learning React.
           </p>
         </div>
       </div>
@@ -48,16 +49,24 @@ export default function About() {
             <Image src={about} alt="Picture" className="mx-auto" />
           </div>
           <div className="flex justify-center items-center sm:max-lg:w-1/2 text-white">
-            <p className="lg:px-11">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              eleifend egestas ante in suscipit. In arcu quam, ultrices sed nibh
-              sed, blandit laoreet eros. Nunc efficitur turpis vel odio rutrum,
-              in efficitur nisl tristique. Curabitur gravida et felis in
-              lobortis. In quis purus odio. Cras ac bibendum ipsum. Pellentesque
-              mattis sollicitudin augue, a euismod felis eleifend quis. Fusce
-              pulvinar odio id porttitor fermentum. Duis nibh urna, rhoncus quis
-              posuere eget, dapibus quis orci.
-            </p>
+            <div className="lg:px-11">
+              <p>
+                Hi!👋 My name is Patricia. I have a degree in Business
+                Informatics and I worked as a website developer. During my work,
+                I try to expand my professional knowledge as much as possible. I
+                believe that continuous learning is essential for personal
+                growth. I have work experience in Laravel framework, both in
+                backend and frontend development. I am comfortable working with
+                the Laravel Blade templates, as well as JavaScript, HTML and
+                Tailwind CSS. Currently I&apos;m learning React and working on
+                demo websites. In the future, I would like to get to know other
+                frontend and backend frameworks.
+              </p>
+              <p className="pt-2">
+                Currently I&apos;m looking for a job and hope I have piqued your
+                interest.
+              </p>
+            </div>
           </div>
         </div>
       </div>

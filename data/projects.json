@@ -1,19 +1,11 @@
 [
   {
     "title": "Portfolio website",
-    "image": "pic.jpg",
+    "image": "portfolio.png",
     "date": "December 2023",
     "github": "https://github.com/patricia-026/portfolio",
-    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
+    "description": "My personal website. It's still under development.",
     "technologies": [
-      {
-        "title": "React",
-        "image": "icons/react.svg"
-      },
-      {
-        "title": "Redux",
-        "image": "icons/redux.svg"
-      },
       {
         "title": "Next.js",
         "image": "icons/nextjs.svg"
@@ -23,16 +15,7 @@
         "image": "icons/tailwindcss.svg"
       },
       {
-        "title": "Vite",
-        "image": "icons/vite.svg"
-      },
-      {
-        "title": "Git",
-        "image": "icons/git.svg"
-      },
-      {
-        "title": "Laravel",
-        "image": "icons/laravel.svg"
+        "title": "Framer Motion"
       }
     ]
   }

@@ -8,7 +8,7 @@ export default function ProjectCard({ projects }) {
       <div
         id="projects"
         key={id}
-        className="bg-dark-blue grid justify-between rounded-xl p-4 w-full sm:w-56 md:w-64 lg:w-80 m-2 shadow-sm shadow-white/50"
+        className="bg-dark-blue grid justify-between rounded-xl p-4 w-full sm:w-56 md:w-64 lg:w-80 m-2 shadow-sm shadow-white/50 hover:shadow-md hover:shadow-white/50 duration-200 hover:scale-105"
       >
         <div>
           <div className="text-white pb-4 pt-2">{project.title}</div>
