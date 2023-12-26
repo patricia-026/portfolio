@@ -21,6 +21,7 @@ export default function ProjectCard({ projects }) {
             style={{ width: "auto", height: "auto" }}
             className="px-2 pb-4 min-w-full"
           />
+          <div className="text-white/50 italic py-2">{project.date}</div>
           <div className="text-white pb-4 mb-6 px-2">{project.description}</div>
         </div>
         <div className="w-full grid content-end">
@@ -46,11 +47,13 @@ export default function ProjectCard({ projects }) {
             })}
           </div>
           <div className="flex justify-end m-2">
-            <AiOutlineLink
+            {/*             <AiOutlineLink
               size={30}
               className="cursor-pointer text-white mr-2"
-            />
-            <AiOutlineGithub size={30} className="cursor-pointer text-white" />
+            /> */}
+            <a href={project.github} target="_blank">
+              <AiOutlineGithub size={30} className="text-white" />
+            </a>
           </div>
         </div>
       </div>

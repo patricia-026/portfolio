@@ -1,7 +1,9 @@
 [
   {
-    "title": "PROJECT 1",
+    "title": "Portfolio website",
     "image": "pic.jpg",
+    "date": "December 2023",
+    "github": "https://github.com/patricia-026/portfolio",
     "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
     "technologies": [
       {
@@ -31,75 +33,6 @@
       {
         "title": "Laravel",
         "image": "icons/laravel.svg"
-      }
-    ]
-  },
-  {
-    "title": "PROJECT 2",
-    "image": "pic.jpg",
-    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
-    "technologies": [
-      {
-        "title": "Laravel",
-        "image": "icons/laravel.svg"
-      },
-      {
-        "title": "CSS3",
-        "image": "icons/css3.svg"
-      },
-      {
-        "title": "MySQL",
-        "image": "icons/mysql.svg"
-      },
-      {
-        "title": "MongoDB",
-        "image": "icons/mongodb.svg"
-      }
-    ]
-  },
-  {
-    "title": "PROJECT 2",
-    "image": "pic.jpg",
-    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
-    "technologies": [
-      {
-        "title": "Laravel",
-        "image": "icons/laravel.svg"
-      },
-      {
-        "title": "CSS3",
-        "image": "icons/css3.svg"
-      },
-      {
-        "title": "MySQL",
-        "image": "icons/mysql.svg"
-      },
-      {
-        "title": "MongoDB",
-        "image": "icons/mongodb.svg"
-      }
-    ]
-  },
-  {
-    "title": "PROJECT 2",
-    "image": "pic.jpg",
-    "description": "Cras ac bibendum ipsum. Pellentesque mattis sollicitudin augue,a euismod",
-    "technologies": [
-      {
-        "title": "Laravel",
-        "image": "icons/laravel.svg"
-      },
-      {
-        "title": "CSS3",
-        "image": "icons/css3.svg"
-      },
-      {
-        "title": "MySQL",
-        "image": "icons/mysql.svg"
-      },
-      {
-        "title": "MongoDB",
-        "image": "icons/mongodb.svg"
       }
     ]
   }

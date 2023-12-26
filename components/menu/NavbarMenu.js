@@ -1,10 +1,10 @@
 import MenuLink from "./MenuLink";
 import { motion } from "framer-motion";
-import { list } from "./list";
+import list from "../../data/menuList";
 
 export default function MenuList() {
   return (
-    <ul className="hidden sm:flex">
+    <ul className="hidden sm:flex justify-center">
       {list.map((element) => (
         <MenuLink key={element.id} id={element.id}>
           <motion.li

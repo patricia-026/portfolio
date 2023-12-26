@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full h-24 shadow-sm shadow-white/50 bg-dark-blue z-50 px-8">
-        <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
+      <nav className="fixed w-full h-24 shadow-sm shadow-white/50 bg-dark-blue z-50 px-[5%]">
+        <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16 sm:block md:flex">
           <Logo />
           <NavbarMenu />
           <AnimatePresence>

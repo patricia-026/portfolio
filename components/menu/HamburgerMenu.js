@@ -1,6 +1,6 @@
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import MenuLink from "./MenuLink";
-import { list } from "./list";
+import list from "../../data/menuList";
 import { AnimatePresence, motion, stagger, useAnimate } from "framer-motion";
 
 export default function HamburgerMenu({ closeMenu, menuOpen }) {
@@ -17,7 +17,7 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
             animate="visible"
             exit="hidden"
             transition={{ type: "spring", duration: 0.3 }}
-            className="rounded-3xl mx-auto my-4 w-3/4 sm:hidden bg-dark-blue p-10"
+            className="rounded-3xl mx-auto my-4 w-full sm:hidden bg-dark-blue p-10"
           >
             <div className="py-4">
               <motion.ul
@@ -56,14 +56,18 @@ export default function HamburgerMenu({ closeMenu, menuOpen }) {
               transition={{ type: "spring", duration: 2 }}
               className="flex items-center justify-center pt-2 pb-4"
             >
-              <AiOutlineGithub
-                size={30}
-                className="cursor-pointer mx-2 text-white"
-              />
-              <AiOutlineLinkedin
-                size={30}
-                className="cursor-pointer mx-2 text-white"
-              />
+              <a href={"https://github.com/patricia-026"} target="_blank">
+                <AiOutlineGithub size={30} className="mx-2 text-white" />
+              </a>
+              <a
+                href={"https://www.linkedin.com/in/kovacs-patricia/"}
+                target="_blank"
+              >
+                <AiOutlineLinkedin
+                  size={30}
+                  className="cursor-pointer mx-2 text-white"
+                />
+              </a>
             </motion.div>
           </motion.div>
         )}

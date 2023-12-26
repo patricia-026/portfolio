@@ -4,12 +4,9 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <section
-      id="skills"
-      className="text-center scroll-pt-24 bg-grey-blue pt-10 pb-6"
-    >
+    <section id="skills" className="text-center scroll-pt-24 pt-10 pb-6 mb-6">
       <div className="mx-[10%] pb-2">
-        <div className="text-xl sm:text-2xl text-white">Skills</div>
+        <div className="text-xl sm:text-2xl text-white pb-6">Skills</div>
         <div className="pt-4 pb-2 flex flex-wrap items-center justify-center px-2">
           {skills.map((skill, id) => {
             return (
@@ -26,7 +23,9 @@ export default function Skills() {
                   style={{ width: "50%", height: "auto" }}
                   className="pt-1"
                 />
-                <p className="text-white text-xs md:text-base">{skill.title}</p>
+                <p className="text-white text-xs md:text-base select-none">
+                  {skill.title}
+                </p>
               </div>
             );
           })}
