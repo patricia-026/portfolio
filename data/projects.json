@@ -18,5 +18,26 @@
         "title": "Framer Motion"
       }
     ]
+  },
+  {
+    "title": "CRUD application",
+    "image": "pic.jpg",
+    "date": "April 2023",
+    "github": "https://github.com/patricia-026/nestjs_angular_crud_docker_application",
+    "description": "My first attempt with NestJS, PostgreSQL, Angular and Docker. A really simple CRUD, unfinished project.",
+    "technologies": [
+      {
+        "title": "NestJS"
+      },
+      {
+        "title": "PostgreSQL"
+      },
+      {
+        "title": "Angular"
+      },
+      {
+        "title": "Docker"
+      }
+    ]
   }
 ]
