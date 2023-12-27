@@ -12,10 +12,6 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
-
   return (
     <>
       <nav className="fixed w-full h-24 shadow-sm shadow-white/50 bg-dark-blue z-50 px-[5%]">
@@ -36,13 +32,13 @@ const Navbar = () => {
             </div>
           </AnimatePresence>
         </div>
-        <HamburgerMenu closeMenu={closeMenu} menuOpen={menuOpen} />
+        <HamburgerMenu closeMenu={handleNav} menuOpen={menuOpen} />
       </nav>
 
       {/* overlay */}
       {menuOpen && (
         <div
-          onClick={closeMenu}
+          onClick={handleNav}
           className="sm:hidden fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40"
         />
       )}
